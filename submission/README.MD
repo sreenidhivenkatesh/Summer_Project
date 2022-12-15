@@ -15,7 +15,7 @@ CDM_CW2_G8
 │        └── edukeytable.csv
 │    └── README.MD               # data documentation for anonymised data
 └── Supporting_material
-    ├── Group 8.pdf             # pdf of Jupyter notebook used to anonymise data
-    ├── Group 8.py              # python script detailing code to anonymise data
-    └── Group 8 Slides.pdf      # pdf of slides used for presentation by group 8
+     ├── Group 8.pdf             # pdf of Jupyter notebook used to anonymise data
+     ├── Group 8.py              # python script detailing code to anonymise data
+     └── Group 8 Slides.pdf      # pdf of slides used for presentation by group 8
  ```
