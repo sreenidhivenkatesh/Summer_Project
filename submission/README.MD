@@ -9,12 +9,12 @@ CDM_CW2_G8
 │    ├── data.zip                # password protected zip folder containing anonymised readonly datafile
 │    │    └── data.csv
 │    ├── wanderlust.txt          # text file containing password to data.zip
-│    ├── keys.zip                # zip folder containing key-tables decoding pseudoanonymised data in data.csv
-│    │    ├── keytable.csv
-│    │    ├── postkeytable.csv
-│    │    └── edukeytable.csv
 │    └── README.MD               # data documentation for anonymised data
 └── Supporting_material
+     ├── keys.zip                # zip folder containing key-tables decoding pseudoanonymised data in anonymised_data/data.zip/data.csv 
+     │    ├── keytable.csv
+     │    ├── postkeytable.csv
+     │    └── edukeytable.csv
      ├── Group 8.pdf             # pdf of Jupyter notebook used to anonymise data
      ├── Group 8.py              # python script detailing code to anonymise data
      └── Group 8 Slides.pdf      # pdf of slides used for presentation by group 8

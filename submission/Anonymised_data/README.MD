@@ -11,20 +11,12 @@ Filename structure:
 Anonymised_data directory
     ├── data.zip
     │   └── data.csv
-    ├── wanderlust.txt
-    └── keys.zip
-        ├── keytable.csv
-        ├── postkeytable.csv
-        └── edukeytable.csv
+    └── wanderlust.txt
 ```
 
 This directory includes the relevant files:
 * data.zip: password protected zip folder that contains the anonymised dataset data.csv. Note that data.csv is a read-only file.
 * wanderlust.txt: 20-character alphanumeric password to unlock data.zip
-* keys.zip: zip folder that contains three read-only csv files that encode key-value relationship between pseudo-anonymised variables of continent of birth, postcode and education level and their raw values. The csv files are:
-    * keytable.csv: maps placeholder string ('Color'; 'continent_of_birth' in data.csv) to raw continent of birth ('Continent')
-    * postkeytable.csv: maps placeholder string ('ID'; 'postcode_region' in data.csv) to UK residence region ('UK Region')
-    * edukeytable.csv: maps placeholder string ('Color'; 'education_level' in data.csv) to raw education level ('Education Level')
 
 Files were created in December 2022.
 
@@ -54,7 +46,6 @@ The columns included in this dataset are:
 1. Retrieve password string from wanderlust.txt
 2. Unzip data.zip that contains anonymised data, providing retrieved password string when prompted
 3. Access anonymised data through the embedded data.csv file.
-4. Pseudoanonymised variables can be retrieved for further analysis through the .csv files embedded in keys.zip
 
 ## Data Collection Methodology
 The data was collected from iInsureU123 customers during signup to the insurance company, where customers agreed to undergo a set of tests and were asked to fill in a questionnaire with some personal details.
