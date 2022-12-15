@@ -5,7 +5,7 @@ This folder contains the information required for submission of Coursework 2 of 
 Filename structure:
 ```bash
 CDM_CW2_G8
-├── Anonymised_data             # data directory
+├── Anonymised_data              # data directory
 │    ├── data.zip                # password protected zip folder containing anonymised readonly datafile
 │    │    └── data.csv
 │    ├── wanderlust.txt          # text file containing password to data.zip
